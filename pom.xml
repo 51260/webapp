@@ -8,7 +8,14 @@
 	<artifactId>sparkjava-hello-world</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-
+  <properties>
+    <!-- Generic properties --> 
+    <sonar.projectKey>51260_DevSecOps</sonar.projectKey>
+    <sonar.organization>51260</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.login>4a29c41d74981228418dec87b0c210a696349c79</sonar.login>
+    <sonar.exclusions>dependency-check-report.*</sonar.exclusions>
+  </properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.sparkjava</groupId>
